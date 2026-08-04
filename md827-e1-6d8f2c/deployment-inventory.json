@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-04T17:57:28.576Z",
-  "contentVersion": "2026.08.04.1",
-  "sourceReleaseHash": "42a917489aa82b15d99751b12290ea705bb8b1989ab014ebf01bf0defdcab393",
-  "payloadSha256": "998265df0d2c2e650e6b17b48ca33c6a0c27f9517e93814f85ccf1e2517b5b3f",
-  "innerHtmlBytes": 1185361,
-  "gzipBytes": 634959,
-  "base64Bytes": 846612,
+  "generatedAt": "2026-08-04T18:39:30.606Z",
+  "contentVersion": "2026.08.04.2",
+  "sourceReleaseHash": "644fffb605e70104a7f1162c22e7e66bb61a3c82909725580156a079dd1cf078",
+  "payloadSha256": "0137c1cf6ae7f0a0793abeadd3492317bc7c2813d509e72ff8bb9de17e3ea86c",
+  "innerHtmlBytes": 1209253,
+  "gzipBytes": 640959,
+  "base64Bytes": 854612,
   "chunkSize": 240000,
   "chunkCount": 4,
   "files": [
@@ -42,22 +42,22 @@
     {
       "path": "payload/chunk-000.txt",
       "bytes": 240000,
-      "sha256": "e023f9f7ba8e49f420acecdd86324205100a7158aead84b860bfd9a704526ef3"
+      "sha256": "a7cee24d4afeeb9286f7fa9a47dd6a6903c999b29ab665b778574d2a4d769f2e"
     },
     {
       "path": "payload/chunk-001.txt",
       "bytes": 240000,
-      "sha256": "8effb09d564a9233d59a463990704f0a78c5408fa7521f62e721b75dc3a93840"
+      "sha256": "ec5b54a98945b546c2962c0b78d3e1408cdee8a2654710bde8e6835e172a1ebe"
     },
     {
       "path": "payload/chunk-002.txt",
       "bytes": 240000,
-      "sha256": "30cea6fec87d67fb7e8174e15b96c0db674ad315245ec2c6e87c1077d94ac3c8"
+      "sha256": "af486b4e32becf2406f78487be9e1d39646bd7b734899f7f24eacf37c1164fbb"
     },
     {
       "path": "payload/chunk-003.txt",
-      "bytes": 126612,
-      "sha256": "ecf8e39d3b9015e8cbc009bdd32e514f8e321dfd47944b246a92ff826765a1de"
+      "bytes": 134612,
+      "sha256": "4ff2b8fb9c92c93a54a3c61335ca77b6b8b12684b72293b8c091b80c6ad3b69a"
     }
   ]
 }
