@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MD827 Exam 1">
+  <rect width="512" height="512" rx="96" fill="#0b5c82"/>
+  <path d="M126 145c-28 35-45 82-45 132 0 79 44 143 98 143 33 0 54-30 54-76V144c-39-37-79-32-107 1Z" fill="#d7edf5"/>
+  <path d="M386 145c28 35 45 82 45 132 0 79-44 143-98 143-33 0-54-30-54-76V144c39-37 79-32 107 1Z" fill="#d7edf5"/>
+  <path d="M256 87v289M218 181l38 28 38-28M218 245l38 28 38-28" fill="none" stroke="#f2b544" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="466" text-anchor="middle" font-family="system-ui, sans-serif" font-size="54" font-weight="700" fill="white">MD827</text>
+</svg>
