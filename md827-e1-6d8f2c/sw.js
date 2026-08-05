@@ -1,4 +1,4 @@
-const CACHE='md827-chunked-660cf22d75c0';
+const CACHE='md827-chunked-bfe98513fce0';
 const PRECACHE=["./index.html","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./robots.txt","./payload/chunk-000.txt","./payload/chunk-001.txt","./payload/chunk-002.txt","./payload/chunk-003.txt"];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);for(let i=0;i<PRECACHE.length;i+=8)await cache.addAll(PRECACHE.slice(i,i+8));await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('md827-chunked-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
