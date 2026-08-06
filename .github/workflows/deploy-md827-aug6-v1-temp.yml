@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - update-md827-aug6-transcripts-v1
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
 
 permissions:
   contents: write
