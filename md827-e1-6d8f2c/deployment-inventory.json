@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-06T20:00:39.022974Z",
+  "generatedAt": "2026-08-06T19:30:00.559Z",
   "contentVersion": "2026.08.06.1",
-  "baseContentVersion": "2026.08.05.1",
-  "deploymentMode": "validated-runtime-delta",
   "sourceReleaseHash": "e58a7262cdbdecc5f283d395813dc48ecc845487731e3afab43920c897fbdbca",
   "lectureCount": 19,
   "objectiveCount": 68,
   "activityCount": 195,
   "embeddedVisualCount": 16,
-  "validatedPayloadSha256": "c2586bce4b028d660e6c1398045c09ae9b66b9347d23078c24044cf70ca5a396",
-  "patchSha256": "a15d5e4b297d77438ba246e3a055444527fd9a74cfbf00196ee87576e58a8be2",
-  "baseChunkCount": 4,
-  "patchFileCount": 7,
+  "payloadSha256": "c2586bce4b028d660e6c1398045c09ae9b66b9347d23078c24044cf70ca5a396",
+  "innerHtmlBytes": 1257891,
+  "gzipBytes": 652423,
+  "base64Bytes": 869900,
+  "chunkSize": 240000,
+  "chunkCount": 4,
   "files": [
     {
       "path": "index.html",
-      "bytes": 5661,
-      "sha256": "ea424da0b0b689bce64e1151fb31ea9940d594467e9a19e97ef19ccb380e85b0"
+      "bytes": 3071,
+      "sha256": "b27d4775a92e49ed0c48a8d3fec7f6dd96b1ed20c0c829cf8519faff84271ee0"
     },
     {
       "path": "manifest.webmanifest",
@@ -44,64 +44,24 @@
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
     },
     {
-      "path": "sw.js",
-      "bytes": 1558,
-      "sha256": "59f34f0dc64df1c79c611cb0c7c806b07132e98b373030dfdc4682fb0994e532"
-    },
-    {
       "path": "payload/chunk-000.txt",
       "bytes": 240000,
-      "sha256": "cf84dd8ccdf5f25317cd4dcb76e2c9689e0042ebe1cbac7d00fd967d2f095c11"
+      "sha256": "ca20c633b07f8b3e71567daa1fdd1ebab1e6043b9dd722d4111da00f7d1cfa2d"
     },
     {
       "path": "payload/chunk-001.txt",
       "bytes": 240000,
-      "sha256": "ee516cd5b260f4934616f98f31df1b62572b67194fd62813aabbb448ae4f856c"
+      "sha256": "842c124fd54c6092d6bc5a64eaa9bbced40a5d00b0c580d37165afc6bed1a91f"
     },
     {
       "path": "payload/chunk-002.txt",
       "bytes": 240000,
-      "sha256": "01d7b1aadf8671b3d8af613f170debaf487e3783326fcbc9a4cc5cb72fc6b7e7"
+      "sha256": "1815cb74f7c1f8b18a73c0712b3f4c983cbc2c9a54e3e86584c7d905a029ac45"
     },
     {
       "path": "payload/chunk-003.txt",
-      "bytes": 139384,
-      "sha256": "5e423d2d33b5f4dbc9605c3249fcd9d643ed9c35e1ac704d021e8a55d91bfe21"
-    },
-    {
-      "path": "patches/meta.json",
-      "bytes": 7439,
-      "sha256": "6d5c889f90c2846dd6734482b2ed33658e3b31faaf0b7ffb3f8fd05c5b49680e"
-    },
-    {
-      "path": "patches/respiratory-control-core.json",
-      "bytes": 12903,
-      "sha256": "147ff84807203d43c93f58ae09808c24c45ffcef90e9a5e044cfedae14530ba3"
-    },
-    {
-      "path": "patches/respiratory-control-activities.json",
-      "bytes": 15089,
-      "sha256": "990e0b8c7db738771e77f0a607acd8f340b98a34fa74761714dc499b329280e5"
-    },
-    {
-      "path": "patches/respiratory-stressors-core.gz.txt",
-      "bytes": 6012,
-      "sha256": "0f584a5dd80912634b09cad4212c60fb8c9756845f4801516e39e33b6d634dd1"
-    },
-    {
-      "path": "patches/respiratory-stressors-activities.gz.txt",
-      "bytes": 4716,
-      "sha256": "018006a3399f99e6df8da2edf7817fb5f3b205debad5f9a36f87f92878dfa079"
-    },
-    {
-      "path": "patches/air-quality-core.gz.txt",
-      "bytes": 4028,
-      "sha256": "f5787b3787c29f843a21e843040da95bca3212c6f007d4930c6224e475def5cc"
-    },
-    {
-      "path": "patches/air-quality-activities.gz.txt",
-      "bytes": 3268,
-      "sha256": "9b849cd8e620c139d97b271a4108bc851c3c5fb31529240d3aa827acf006d936"
+      "bytes": 149900,
+      "sha256": "b559cea51fe44e94948b9f7ad698a75367c27b499267e55a7d639eda4e32d124"
     }
   ]
 }
