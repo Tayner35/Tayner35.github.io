@@ -4,13 +4,6 @@ on:
   push:
     branches:
       - update-md827-aug6-transcripts-v1
-  pull_request:
-    branches:
-      - main
-    types:
-      - opened
-      - synchronize
-      - reopened
 
 permissions:
   contents: write
@@ -51,3 +44,5 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Deploy MD827 August 6 transcript update"
           git push origin HEAD:update-md827-aug6-transcripts-v1
+
+# Triggered after the workflow was registered on the default branch.
