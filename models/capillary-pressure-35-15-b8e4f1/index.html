@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
+  <title>Capillary Pressure Drop &amp; Fluid Flux Model</title>
+  <style>html,body{margin:0;min-height:100%;background:#07111c;color:#edf6fb;font:16px system-ui,sans-serif}body{display:grid;place-items:center}.loading{max-width:34rem;padding:2rem;text-align:center}.error{color:#ffd6d6}</style>
+</head>
+<body>
+  <div class="loading" id="status">Loading interactive model…</div>
+  <script>
+  (async () => {
+    const partFiles = [
+      "payload/part-01.txt",
+      "payload/part-02.txt",
+      "payload/part-03.txt",
+      "payload/part-04.txt",
+      "payload/part-05.txt",
+      "payload/part-06.txt"
+    ];
+    if (!("DecompressionStream" in window)) {
+      throw new Error("This browser does not support the decompression feature required by this page. Please use a current version of Chrome, Edge, Firefox, or Safari.");
+    }
+    const responses = await Promise.all(partFiles.map(file => fetch(file, { cache: "no-store" })));
+    for (const response of responses) {
+      if (!response.ok) throw new Error(`A model resource failed to load (${response.status}).`);
+    }
+    const encoded = (await Promise.all(responses.map(response => response.text())))
+      .map(part => part.trim())
+      .join("");
+    const compressed = Uint8Array.from(atob(encoded), character => character.charCodeAt(0));
+    const stream = new Blob([compressed]).stream().pipeThrough(new DecompressionStream("gzip"));
+    const html = await new Response(stream).text();
+    document.open();
+    document.write(html);
+    document.close();
+  })().catch(error => {
+    const status = document.getElementById("status");
+    status.className = "loading error";
+    status.textContent = error.message;
+  });
+  </script>
+</body>
+</html>
