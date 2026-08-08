@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-06T20:00:39.022974Z",
-  "contentVersion": "2026.08.06.1",
-  "baseContentVersion": "2026.08.05.1",
-  "deploymentMode": "validated-runtime-delta",
-  "sourceReleaseHash": "e58a7262cdbdecc5f283d395813dc48ecc845487731e3afab43920c897fbdbca",
+  "generatedAt": "2026-08-08T01:57:07.952Z",
+  "contentVersion": "2026.08.07.1",
+  "sourceReleaseHash": "4551e4843092e560357c2e1e8d301d50ce10109cef350df451271ad0512fd770",
   "lectureCount": 19,
   "objectiveCount": 68,
-  "activityCount": 195,
+  "activityCount": 208,
   "embeddedVisualCount": 16,
-  "validatedPayloadSha256": "c2586bce4b028d660e6c1398045c09ae9b66b9347d23078c24044cf70ca5a396",
-  "patchSha256": "a15d5e4b297d77438ba246e3a055444527fd9a74cfbf00196ee87576e58a8be2",
-  "baseChunkCount": 4,
-  "patchFileCount": 7,
+  "payloadSha256": "a067ace1feb4cfbd59a838ee63d9e5b99f34b1c2a4194141fe8b0cd556fa7bd4",
+  "innerHtmlBytes": 1284698,
+  "gzipBytes": 660681,
+  "base64Bytes": 880908,
+  "chunkSize": 50000,
+  "chunkCount": 18,
   "files": [
     {
       "path": "index.html",
-      "bytes": 5661,
-      "sha256": "ea424da0b0b689bce64e1151fb31ea9940d594467e9a19e97ef19ccb380e85b0"
+      "bytes": 3435,
+      "sha256": "dd140cee4974a86f35e95ece4deb72b4bcf06fb4e8a32421abbd7c065ac7d1cd"
     },
     {
       "path": "manifest.webmanifest",
@@ -44,64 +44,94 @@
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
     },
     {
-      "path": "sw.js",
-      "bytes": 1558,
-      "sha256": "59f34f0dc64df1c79c611cb0c7c806b07132e98b373030dfdc4682fb0994e532"
-    },
-    {
       "path": "payload/chunk-000.txt",
-      "bytes": 240000,
-      "sha256": "cf84dd8ccdf5f25317cd4dcb76e2c9689e0042ebe1cbac7d00fd967d2f095c11"
+      "bytes": 50000,
+      "sha256": "5b69d81212661db8fb67b90f7a488d335a15b4390867ac67325424008a407d35"
     },
     {
       "path": "payload/chunk-001.txt",
-      "bytes": 240000,
-      "sha256": "ee516cd5b260f4934616f98f31df1b62572b67194fd62813aabbb448ae4f856c"
+      "bytes": 50000,
+      "sha256": "8c3bc2b30b4029001cb0969463cdc261e0057efb78ed2b2b4337c2a4d6c93914"
     },
     {
       "path": "payload/chunk-002.txt",
-      "bytes": 240000,
-      "sha256": "01d7b1aadf8671b3d8af613f170debaf487e3783326fcbc9a4cc5cb72fc6b7e7"
+      "bytes": 50000,
+      "sha256": "bd138c1483d130710aa80dc821c77768e2071d0d46a9face790c02f2f9f434b1"
     },
     {
       "path": "payload/chunk-003.txt",
-      "bytes": 139384,
-      "sha256": "5e423d2d33b5f4dbc9605c3249fcd9d643ed9c35e1ac704d021e8a55d91bfe21"
+      "bytes": 50000,
+      "sha256": "fd412685a5e461fb8c26291baaec50131ffa40a93a19ab90a122db2b440a7791"
     },
     {
-      "path": "patches/meta.json",
-      "bytes": 7439,
-      "sha256": "6d5c889f90c2846dd6734482b2ed33658e3b31faaf0b7ffb3f8fd05c5b49680e"
+      "path": "payload/chunk-004.txt",
+      "bytes": 50000,
+      "sha256": "f9702a322b16f8cd58ce5a7d73254e2aaa9a32187298a8392431a76528da7e85"
     },
     {
-      "path": "patches/respiratory-control-core.json",
-      "bytes": 12903,
-      "sha256": "147ff84807203d43c93f58ae09808c24c45ffcef90e9a5e044cfedae14530ba3"
+      "path": "payload/chunk-005.txt",
+      "bytes": 50000,
+      "sha256": "a3cbabc260bfd2dd62c2956bd6d381213f130e071338ba4ac724be225e629e44"
     },
     {
-      "path": "patches/respiratory-control-activities.json",
-      "bytes": 15089,
-      "sha256": "990e0b8c7db738771e77f0a607acd8f340b98a34fa74761714dc499b329280e5"
+      "path": "payload/chunk-006.txt",
+      "bytes": 50000,
+      "sha256": "0c1ceacc37672f4dc0c91c3536aef8d26ce937144cad2f278cbba891548a1fbb"
     },
     {
-      "path": "patches/respiratory-stressors-core.gz.txt",
-      "bytes": 6012,
-      "sha256": "0f584a5dd80912634b09cad4212c60fb8c9756845f4801516e39e33b6d634dd1"
+      "path": "payload/chunk-007.txt",
+      "bytes": 50000,
+      "sha256": "332d591fa751286530aec1cf0d64f350e47b8a459b29ec931173bc8931fa9429"
     },
     {
-      "path": "patches/respiratory-stressors-activities.gz.txt",
-      "bytes": 4716,
-      "sha256": "018006a3399f99e6df8da2edf7817fb5f3b205debad5f9a36f87f92878dfa079"
+      "path": "payload/chunk-008.txt",
+      "bytes": 50000,
+      "sha256": "7ae1236818b3c1d47d7de58e7b53e20a8797a4eee44ede4f4a93e8a09ff1a83a"
     },
     {
-      "path": "patches/air-quality-core.gz.txt",
-      "bytes": 4028,
-      "sha256": "f5787b3787c29f843a21e843040da95bca3212c6f007d4930c6224e475def5cc"
+      "path": "payload/chunk-009.txt",
+      "bytes": 50000,
+      "sha256": "d530264c5fb613dc7e6f612896e790e557d2fc2be981260faf717037e7461e69"
     },
     {
-      "path": "patches/air-quality-activities.gz.txt",
-      "bytes": 3268,
-      "sha256": "9b849cd8e620c139d97b271a4108bc851c3c5fb31529240d3aa827acf006d936"
+      "path": "payload/chunk-010.txt",
+      "bytes": 50000,
+      "sha256": "da86dde819b9206d6cef00ae268d63400ea29985dfb51c79e9146ef5dcca993f"
+    },
+    {
+      "path": "payload/chunk-011.txt",
+      "bytes": 50000,
+      "sha256": "443350d8e1d094fa658660365ddac33c5cef26684fbcee11cbd74764d2bc86c2"
+    },
+    {
+      "path": "payload/chunk-012.txt",
+      "bytes": 50000,
+      "sha256": "ac8bd8c40bce907043e3580cc8c1788333bb5f5f751c52bd000762a8c449b115"
+    },
+    {
+      "path": "payload/chunk-013.txt",
+      "bytes": 50000,
+      "sha256": "e7e245c6fcac26dbee87d8fff6752abf560ecad4482ab123d28da8be90327d6b"
+    },
+    {
+      "path": "payload/chunk-014.txt",
+      "bytes": 50000,
+      "sha256": "ce80a783b46bd54906316464a9f06b4c0fe97db1b8725a57403f6d8858ea351b"
+    },
+    {
+      "path": "payload/chunk-015.txt",
+      "bytes": 50000,
+      "sha256": "804e307d8c9de7fbac9f58b6fd1251272311dc171ce3a36efdbe89f1ca55f0d4"
+    },
+    {
+      "path": "payload/chunk-016.txt",
+      "bytes": 50000,
+      "sha256": "0bb07ffa4d8f224e81c74f08a9035f2dc93fc81de304ea5e47a0d799267224d3"
+    },
+    {
+      "path": "payload/chunk-017.txt",
+      "bytes": 30908,
+      "sha256": "d778e8287151032f74f91b21b46742d62d51bd4eb954c223b308945ccb977237"
     }
   ]
 }
