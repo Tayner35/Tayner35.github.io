@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="referrer" content="no-referrer" />
+  <title>MD827 PFT Pattern Occlusion Grid</title>
+  <style>
+    html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#eef2f7;color:#152033}
+    body{display:grid;place-items:center}
+    main{max-width:38rem;padding:2rem;text-align:center}
+    p{color:#5e6b7d;line-height:1.5}
+  </style>
+</head>
+<body>
+  <main id="status" role="status" aria-live="polite">
+    <h1>Loading PFT occlusion grid…</h1>
+    <p>The study table is being prepared in your browser.</p>
+  </main>
+  <script>
+  (async()=>{
+    const status=document.getElementById('status');
+    try{
+      if(!('DecompressionStream' in window)) throw new Error('This browser does not support the decompression feature required to open the study grid. Use a current version of Safari, Chrome, Edge, or Firefox.');
+      const response=await fetch('payload/904b283392e4/00.txt?v=904b283392e4',{cache:'no-store'});
+      if(!response.ok) throw new Error(`Unable to load study data (${response.status}).`);
+      const encoded=await response.text();
+      const bytes=Uint8Array.from(atob(encoded.trim()),c=>c.charCodeAt(0));
+      const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+      const html=await new Response(stream).text();
+      document.open();
+      document.write(html);
+      document.close();
+    }catch(error){
+      status.innerHTML='<h1>Unable to load the study grid</h1><p></p>';
+      status.querySelector('p').textContent=error instanceof Error?error.message:String(error);
+      console.error(error);
+    }
+  })();
+  </script>
+</body>
+</html>
