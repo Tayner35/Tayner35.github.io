@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="theme-color" content="#17365d" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <title>MD827 PFT Pattern Occlusion Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#study-grid">Skip to the study table</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <a class="back-link" href="../" aria-label="Return to the interactive PFT model">← Interactive PFT model</a>
+      <p class="eyebrow">MD827 · Exam 1</p>
+      <h1>PFT Pattern Occlusion Lab</h1>
+      <p class="hero__lede">
+        Reveal one cell at a time. After the answer appears, use the cell’s
+        <strong>Explanation</strong> button to connect the PFT value to the underlying physiology.
+      </p>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="study-panel" aria-labelledby="study-controls-title">
+      <div class="study-panel__header">
+        <div>
+          <p class="eyebrow" id="study-controls-title">Study controls</p>
+          <div class="tabs" id="table-tabs" role="tablist" aria-label="PFT table selection"></div>
+        </div>
+        <div class="progress-card" aria-live="polite">
+          <div class="progress-card__line">
+            <span id="progress-label">0 of 0 cells revealed</span>
+            <span id="progress-percent">0%</span>
+          </div>
+          <progress id="reveal-progress" max="100" value="0">0%</progress>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-control" for="row-search">
+          <span>Find a disease</span>
+          <input id="row-search" type="search" autocomplete="off" placeholder="Asthma, fibrosis, CF…" />
+        </label>
+
+        <div class="toolbar__buttons" aria-label="Reveal controls">
+          <button class="button button--primary" id="reveal-random" type="button">Reveal random cell</button>
+          <button class="button" id="reveal-all" type="button">Reveal all</button>
+          <button class="button" id="hide-all" type="button">Hide all</button>
+          <button class="button" id="shuffle-rows" type="button">Shuffle rows</button>
+          <button class="button button--danger-quiet" id="reset-progress" type="button">Reset saved progress</button>
+        </div>
+      </div>
+
+      <div class="legend" aria-label="Answer conventions">
+        <span class="legend__label">Conventions</span>
+        <span class="answer-chip answer-chip--low">↓ <small>Low</small></span>
+        <span class="answer-chip answer-chip--normal">N <small>Normal</small></span>
+        <span class="answer-chip answer-chip--high">↑ <small>High</small></span>
+        <span class="answer-chip answer-chip--variable">N/↓ · N/↑ · Var <small>Variable</small></span>
+      </div>
+
+      <p class="table-description" id="table-description"></p>
+      <div class="table-scroll" id="study-grid" tabindex="0" aria-label="Scrollable PFT occlusion table">
+        <div id="table-container"></div>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>No matching diseases were found.</p>
+    </section>
+
+    <section class="course-notes" aria-labelledby="course-notes-title">
+      <h2 id="course-notes-title">How to interpret the table</h2>
+      <div class="course-notes__grid">
+        <article>
+          <h3>Obstruction</h3>
+          <p>Defined by a low FEV₁/FVC ratio. RV may rise from air trapping, while TLC may remain normal or increase.</p>
+        </article>
+        <article>
+          <h3>Restriction</h3>
+          <p>A low FVC only suggests restriction. A low TLC is required to confirm it.</p>
+        </article>
+        <article>
+          <h3>DLCO localization</h3>
+          <p>Low DLCO with restriction favors intrinsic parenchymal disease; preserved DLCO favors an extraparenchymal cause.</p>
+        </article>
+        <article>
+          <h3>Scope</h3>
+          <p>These are typical Exam 1 patterns, not absolute diagnostic rules. Severity, treatment, effort, and mixed disease can change individual values.</p>
+        </article>
+      </div>
+      <p class="source-note">
+        Course sources: <em>E1W1_g_Spirometry.pdf</em> and <em>2026-08-04_g_Spirometry.txt</em>, cross-checked with the Surface Tension &amp; Compliance and Lung Defense &amp; Structure sessions. Assume active/untreated physiology and hemoglobin-adjusted DLCO.
+      </p>
+    </section>
+  </main>
+
+  <div class="status-toast" id="status-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog class="explanation-dialog" id="explanation-dialog" aria-labelledby="dialog-title">
+    <form method="dialog" class="dialog-close-row">
+      <button class="dialog-close" aria-label="Close explanation">×</button>
+    </form>
+    <p class="eyebrow" id="dialog-metric"></p>
+    <h2 id="dialog-title"></h2>
+    <div class="dialog-answer" id="dialog-answer"></div>
+    <section>
+      <h3>Why this result occurs</h3>
+      <p id="dialog-explanation"></p>
+    </section>
+    <section class="mechanism-box">
+      <h3>Underlying disease mechanism</h3>
+      <p id="dialog-mechanism"></p>
+    </section>
+    <form method="dialog" class="dialog-footer">
+      <button class="button button--primary">Close</button>
+    </form>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
