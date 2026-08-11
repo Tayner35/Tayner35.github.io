@@ -24,7 +24,7 @@
     const status=document.getElementById('status');
     try{
       if(!('DecompressionStream' in window)) throw new Error('This browser does not support the decompression feature required to open the model. Use a current version of Safari, Chrome, Edge, or Firefox.');
-      const paths=["payload/4f0e52e85696/00.txt?v=4f0e52e85696", "payload/4f0e52e85696/01.txt?v=4f0e52e85696", "payload/4f0e52e85696/02.txt?v=4f0e52e85696", "payload/4f0e52e85696/03.txt?v=4f0e52e85696", "payload/4f0e52e85696/04.txt?v=4f0e52e85696", "payload/4f0e52e85696/05.txt?v=4f0e52e85696"];
+      const paths=['payload/e200b44dd626c/00.txt?v=e200b44dd626c', 'payload/e200b44dd626c/01.txt?v=e200b44dd626c', 'payload/e200b44dd626c/02.txt?v=e200b44dd626c', 'payload/e200b44dd626c/03.txt?v=e200b44dd626c', 'payload/e200b44dd626c/04.txt?v=e200b44dd626c', 'payload/e200b44dd626c/05.txt?v=e200b44dd626c', 'payload/e200b44dd626c/06.txt?v=e200b44dd626c', 'payload/e200b44dd626c/07.txt?v=e200b44dd626c'];
       const encoded=(await Promise.all(paths.map(async path=>{
         const response=await fetch(path,{cache:'no-store'});
         if(!response.ok) throw new Error(`Unable to load ${path} (${response.status}).`);
