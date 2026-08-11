@@ -1,0 +1,10 @@
+{
+  "name": "md827-pft-pattern-occlusion",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check data-shared.js && node --check data-diseases-a.js && node --check data-diseases-b.js && node --check data-airway.js && node --check data.js && node --check core.js && node --check app.js"
+  }
+}
