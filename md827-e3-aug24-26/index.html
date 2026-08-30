@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#123b4a">
+<title>MD827 · Clinical Knowledge Check</title>
+<style>html,body{height:100%;margin:0}body{display:grid;place-items:center;background:#eaf0f1;color:#14222a;font:600 15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.loader{display:grid;justify-items:center;gap:14px}.loader i{width:34px;height:34px;border:4px solid #bdd0d4;border-top-color:#1f6573;border-radius:50%;animation:spin .8s linear infinite}.error{max-width:560px;padding:24px;text-align:center}@keyframes spin{to{transform:rotate(360deg)}}</style>
+</head>
+<body>
+<div class="loader"><i aria-hidden="true"></i><span>Opening the question bank…</span></div>
+<noscript>This study page requires JavaScript.</noscript>
+<script>
+(async()=>{
+const names=['payload-1.txt','payload-2.txt','payload-3.txt','payload-4.txt','payload-5.txt','payload-6.txt','payload-7.txt','payload-8.txt'];
+const parts=await Promise.all(names.map(async name=>{const response=await fetch(name,{cache:'force-cache'});if(!response.ok)throw new Error(`Missing deployment asset: ${name}`);return response.text()}));
+const encoded=parts.join('');
+const bytes=Uint8Array.from(atob(encoded),character=>character.charCodeAt(0));
+const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+const documentText=await new Response(stream).text();
+document.open();document.write(documentText);document.close();
+})().catch(error=>{console.error(error);document.body.innerHTML='<div class="error"><h1>The question bank could not open.</h1><p>Please update the browser and reload the page.</p></div>'});
+</script>
+</body>
+</html>
