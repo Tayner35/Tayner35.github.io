@@ -23,7 +23,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Unpack validated expansion tools
         shell: python
@@ -40,6 +40,30 @@ jobs:
           with tarfile.open(fileobj=io.BytesIO(archive), mode='r:gz') as package:
               package.extractall(destination)
           print('Unpacked:', ', '.join(sorted(path.name for path in destination.iterdir())))
+
+      - name: Assemble and validate split question data
+        shell: python
+        run: |
+          import base64
+          import gzip
+          import json
+          from pathlib import Path
+
+          root = Path('md827-e3-aug24-26')
+          parts = [
+              root / 'questions-aug27-28.part-1.b64',
+              root / 'questions-aug27-28.part-2.b64',
+          ]
+          missing = [path.name for path in parts if not path.exists()]
+          if missing:
+              raise SystemExit(f'Missing question-data parts: {missing}')
+          encoded = ''.join(path.read_text().strip() for path in parts)
+          questions = json.loads(gzip.decompress(base64.b64decode(encoded)).decode('utf-8'))
+          assert len(questions) == 32
+          assert questions[0]['id'] == 'PH-01'
+          assert questions[-1]['id'] == 'LT-06'
+          (root / 'questions-aug27-28.json.gz.b64').write_text(encoded)
+          print(f'Validated {len(questions)} new questions from {len(parts)} integrity-safe parts.')
 
       - name: Merge, validate, and generate the 82-question build
         run: python /tmp/md827-expansion-tools/build.py
