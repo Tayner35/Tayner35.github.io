@@ -80,7 +80,7 @@ jobs:
           python -m http.server 4173 >/tmp/md827-http.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
-          node /tmp/md827-expansion-tools/local-test.js
+          NODE_PATH="$GITHUB_WORKSPACE/node_modules" node /tmp/md827-expansion-tools/local-test.js
 
       - name: Upload local browser-test evidence
         uses: actions/upload-artifact@v4
@@ -108,7 +108,7 @@ jobs:
           fi
 
       - name: Verify the public GitHub Pages deployment
-        run: node /tmp/md827-expansion-tools/live-test.js
+        run: NODE_PATH="$GITHUB_WORKSPACE/node_modules" node /tmp/md827-expansion-tools/live-test.js
 
       - name: Upload live verification evidence
         if: always()
