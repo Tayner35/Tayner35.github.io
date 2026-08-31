@@ -80,6 +80,7 @@ jobs:
           python -m http.server 4173 >/tmp/md827-http.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
+          sed -i 's#md827-e3-aug24-26/?smoke#md827-e3-aug24-26/#g' /tmp/md827-expansion-tools/local-test.js
           NODE_PATH="$GITHUB_WORKSPACE/node_modules" node /tmp/md827-expansion-tools/local-test.js
 
       - name: Upload local browser-test evidence
