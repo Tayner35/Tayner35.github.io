@@ -1,0 +1,95 @@
+name: Expand MD827 question bank through Aug 28
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/expand-md827-aug27-28.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-test-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Unpack validated expansion tools
+        shell: python
+        run: |
+          import base64
+          import io
+          import tarfile
+          from pathlib import Path
+
+          encoded = Path('md827-e3-aug24-26/expansion-tools.tar.gz.b64').read_text().strip()
+          archive = base64.b64decode(encoded)
+          destination = Path('/tmp/md827-expansion-tools')
+          destination.mkdir(parents=True, exist_ok=True)
+          with tarfile.open(fileobj=io.BytesIO(archive), mode='r:gz') as package:
+              package.extractall(destination)
+          print('Unpacked:', ', '.join(sorted(path.name for path in destination.iterdir())))
+
+      - name: Merge, validate, and generate the 82-question build
+        run: python /tmp/md827-expansion-tools/build.py
+
+      - name: Install Playwright Chromium
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Run local desktop, mobile, filter, rationale, and migration tests
+        run: |
+          mkdir -p test-results
+          python -m http.server 4173 >/tmp/md827-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          node /tmp/md827-expansion-tools/local-test.js
+
+      - name: Upload local browser-test evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: md827-aug24-28-browser-tests
+          path: test-results/
+          if-no-files-found: error
+
+      - name: Commit expanded site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add md827-e3-aug24-26/index.html \
+                  md827-e3-aug24-26/payload-*.txt \
+                  md827-e3-aug24-26/source-extracted.html \
+                  md827-e3-aug24-26/questions-aug27-28.json \
+                  md827-e3-aug24-26/questions-aug27-28.json.gz.b64 \
+                  md827-e3-aug24-26/build-manifest.json
+          git add -u md827-e3-aug24-26/
+          if git diff --cached --quiet; then
+            echo "No site changes to commit."
+          else
+            git commit -m "Expand MD827 knowledge check through Aug 28"
+            git push
+          fi
+
+      - name: Verify the public GitHub Pages deployment
+        run: node /tmp/md827-expansion-tools/live-test.js
+
+      - name: Upload live verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: md827-aug24-28-live-verification
+          path: test-results/live.png
+          if-no-files-found: warn
