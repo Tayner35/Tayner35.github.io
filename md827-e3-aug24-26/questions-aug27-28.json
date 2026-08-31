@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "PH-01",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.01",
+    "difficulty": "Moderate",
+    "skill": "Toxicity → mechanism",
+    "stem": "A 42-year-old woman with pulmonary tuberculosis begins four-drug therapy. Three weeks later, she reports burning pain and numbness in both feet. Examination shows reduced distal pinprick sensation; visual acuity and color discrimination are normal. Her liver enzymes are mildly elevated.",
+    "prompt": "Which treatment modification most directly addresses the mechanism of her neurologic complication while allowing the responsible antitubercular drug to continue?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Add folic acid while continuing pyrazinamide",
+        "rationale": "Folate replacement does not correct the vitamin B6 depletion responsible for this neuropathy, and pyrazinamide is more strongly associated with hyperuricemia and hepatotoxicity."
+      },
+      {
+        "id": "B",
+        "text": "Add pyridoxine while continuing isoniazid",
+        "rationale": "Isoniazid inhibits mycolic-acid synthesis and promotes functional vitamin B6 deficiency; pyridoxine supplementation prevents or treats the resulting peripheral neuropathy."
+      },
+      {
+        "id": "C",
+        "text": "Add cyanocobalamin while continuing rifampin",
+        "rationale": "Vitamin B12 deficiency can cause neuropathy, but rifampin classically causes cytochrome P450 induction and orange discoloration of body fluids rather than B12 depletion."
+      },
+      {
+        "id": "D",
+        "text": "Add thiamine while continuing ethambutol",
+        "rationale": "Thiamine is used for deficiency states such as Wernicke encephalopathy. Ethambutol toxicity instead produces optic neuritis and impaired color discrimination."
+      },
+      {
+        "id": "E",
+        "text": "Add niacin while continuing rifabutin",
+        "rationale": "Niacin does not reverse antitubercular neuropathy. Rifabutin is selected mainly when less cytochrome P450 induction is desired."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The distal symmetric sensory symptoms after starting tuberculosis treatment point to isoniazid-induced peripheral neuropathy. Isoniazid blocks synthesis of the mycolic-acid–rich mycobacterial envelope but also interferes with pyridoxine metabolism, reducing availability of vitamin B6–dependent pathways in peripheral nerves. Supplementing pyridoxine treats the off-target toxicity without sacrificing an important antitubercular mechanism.",
+    "takeaway": "Isoniazid inhibits mycolic-acid synthesis and can cause vitamin B6–responsive peripheral neuropathy."
+  },
+  {
+    "id": "PH-02",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.01",
+    "difficulty": "Challenging",
+    "skill": "Drug interaction",
+    "stem": "A 27-year-old woman with active tuberculosis takes a combined oral contraceptive. Two weeks after starting therapy, she notices orange discoloration of her urine and tears. Six weeks later, a pregnancy test is positive despite consistent contraceptive use.",
+    "prompt": "Which pharmacologic property of the responsible antitubercular drug best explains the contraceptive failure?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Competitive inhibition of CYP3A4, increasing estrogen exposure",
+        "rationale": "CYP inhibition would raise, not lower, estrogen concentrations and does not match the orange body-fluid discoloration."
+      },
+      {
+        "id": "B",
+        "text": "Induction of hepatic cytochrome P450 enzymes, accelerating estrogen metabolism",
+        "rationale": "Rifampin induces hepatic drug-metabolizing enzymes and can lower concentrations of oral contraceptives and many other medications; orange secretions are a classic clue."
+      },
+      {
+        "id": "C",
+        "text": "Inhibition of renal tubular secretion of estrogen",
+        "rationale": "Reduced tubular secretion would tend to increase drug exposure and is not a characteristic action of rifampin."
+      },
+      {
+        "id": "D",
+        "text": "Chelation of estrogen within the intestinal lumen",
+        "rationale": "Chelation is not the mechanism of this interaction and would not account for orange tears and urine."
+      },
+      {
+        "id": "E",
+        "text": "Irreversible inhibition of bacterial arabinosyl transferase",
+        "rationale": "That describes ethambutol's mycobacterial cell-wall effect, which is associated with optic toxicity rather than major CYP induction."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Orange discoloration of secretions identifies rifampin. Rifampin inhibits bacterial DNA-dependent RNA polymerase, but its major host pharmacologic effect is induction of hepatic cytochrome P450 enzymes. Faster metabolism lowers exposure to oral contraceptives, anticoagulants, and numerous other drugs, so medication reconciliation and alternative contraception are essential.",
+    "takeaway": "Rifampin induces CYP450 enzymes, causes major drug interactions, and turns body fluids orange."
+  },
+  {
+    "id": "PH-03",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.01",
+    "difficulty": "Challenging",
+    "skill": "Toxicity + lesion physiology",
+    "stem": "A 59-year-old man with cavitary pulmonary tuberculosis begins standard therapy. One month later, he develops an acutely painful, erythematous first metatarsophalangeal joint. Serum uric acid is elevated. The implicated drug is especially useful against bacilli in acidic intracellular environments.",
+    "prompt": "Which drug is most likely responsible for this complication?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ethambutol",
+        "rationale": "Ethambutol inhibits arabinogalactan synthesis and is associated with optic neuritis and altered color vision, not hyperuricemia."
+      },
+      {
+        "id": "B",
+        "text": "Isoniazid",
+        "rationale": "Isoniazid inhibits mycolic-acid synthesis and can cause hepatotoxicity and pyridoxine-responsive neuropathy."
+      },
+      {
+        "id": "C",
+        "text": "Pyrazinamide",
+        "rationale": "Pyrazinamide is active in acidic environments and commonly causes hyperuricemia, which can precipitate gout; hepatotoxicity is also important."
+      },
+      {
+        "id": "D",
+        "text": "Rifampin",
+        "rationale": "Rifampin inhibits bacterial RNA polymerase and induces CYP450 enzymes; orange secretions are characteristic."
+      },
+      {
+        "id": "E",
+        "text": "Moxifloxacin",
+        "rationale": "Moxifloxacin may be used in selected resistant regimens but is more associated with QT prolongation and tendinopathy than hyperuricemia."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The combination of a gout flare and activity against bacilli in acidic phagolysosomal environments identifies pyrazinamide. Its active metabolites disrupt mycobacterial membrane energetics and help shorten therapy by targeting difficult intracellular populations. Hyperuricemia and hepatotoxicity are the major exam-relevant adverse effects.",
+    "takeaway": "Pyrazinamide works well in acidic intracellular sites and can cause hyperuricemia and gout."
+  },
+  {
+    "id": "PH-04",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.01",
+    "difficulty": "Moderate",
+    "skill": "Adverse effect → target",
+    "stem": "A patient receiving multidrug therapy for tuberculosis reports that red and green traffic lights have become difficult to distinguish. Funduscopic examination is initially unrevealing, but testing confirms reduced visual acuity and color discrimination.",
+    "prompt": "The responsible drug inhibits synthesis of which mycobacterial structure?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Arabinogalactan within the cell wall",
+        "rationale": "Ethambutol inhibits arabinosyl transferases and disrupts arabinogalactan synthesis; optic neuritis with color-vision change is the key toxicity."
+      },
+      {
+        "id": "B",
+        "text": "Mycolic acids in the waxy outer envelope",
+        "rationale": "Isoniazid inhibits mycolic-acid synthesis, but its characteristic neurologic toxicity is peripheral neuropathy from vitamin B6 depletion."
+      },
+      {
+        "id": "C",
+        "text": "Messenger RNA by DNA-dependent RNA polymerase",
+        "rationale": "Rifampin blocks bacterial RNA polymerase and causes CYP induction and orange secretions rather than optic neuritis."
+      },
+      {
+        "id": "D",
+        "text": "Folate through dihydropteroate synthase",
+        "rationale": "Sulfonamides inhibit bacterial folate synthesis and are not part of the standard first-line four-drug tuberculosis regimen."
+      },
+      {
+        "id": "E",
+        "text": "Peptidoglycan cross-links through transpeptidase inhibition",
+        "rationale": "Beta-lactams inhibit transpeptidation but do not explain this classic antitubercular adverse effect."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Ethambutol toxicity is optic neuritis, often first detected as impaired red-green color discrimination. Its antimicrobial target is arabinosyl transferase, which is needed to build arabinogalactan in the mycobacterial cell wall. Baseline and follow-up visual assessment are therefore clinically relevant when the drug is used.",
+    "takeaway": "Ethambutol inhibits arabinogalactan synthesis and can cause reversible optic neuritis with color-vision loss."
+  },
+  {
+    "id": "PH-05",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.02",
+    "difficulty": "Moderate",
+    "skill": "Severity → antifungal",
+    "stem": "A 46-year-old man from the Ohio River Valley has fever, diffuse pulmonary infiltrates, hypoxemia, mucocutaneous lesions, and evidence of disseminated blastomycosis. He is admitted to the intensive care unit.",
+    "prompt": "Which initial therapy and mechanism are most appropriate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Fluconazole; inhibition of fungal DNA gyrase",
+        "rationale": "Fluconazole is an azole, not a DNA-gyrase inhibitor, and is not the preferred initial agent for severe disseminated blastomycosis."
+      },
+      {
+        "id": "B",
+        "text": "Itraconazole; blockade of beta-glucan cross-linking",
+        "rationale": "Itraconazole inhibits lanosterol demethylase. It is useful for less severe pulmonary endemic mycoses but is not the preferred induction drug in critical illness."
+      },
+      {
+        "id": "C",
+        "text": "Liposomal amphotericin B; binding ergosterol and forming membrane pores",
+        "rationale": "Severe disseminated endemic mycosis calls for IV amphotericin B; binding ergosterol creates membrane pores. The liposomal formulation reduces, but does not eliminate, nephrotoxicity."
+      },
+      {
+        "id": "D",
+        "text": "Micafungin; inhibition of mycolic-acid synthesis",
+        "rationale": "Echinocandins inhibit beta-1,3-D-glucan synthesis and have limited roles in endemic dimorphic fungi; mycolic acid is a mycobacterial target."
+      },
+      {
+        "id": "E",
+        "text": "Voriconazole; inhibition of bacterial RNA polymerase",
+        "rationale": "Voriconazole inhibits fungal lanosterol demethylase and is favored for aspergillosis, not severe blastomycosis by this mechanism."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Disease severity determines the initial antifungal strategy. Severe or disseminated blastomycosis requires IV amphotericin B for induction, whereas less severe disease can often be managed with an oral azole such as itraconazole. Amphotericin's amphipathic structure allows it to bind ergosterol and form ion-leaking pores; nephrotoxicity is the major limiting toxicity.",
+    "takeaway": "Use amphotericin B for severe endemic mycoses; it binds ergosterol and forms membrane pores."
+  },
+  {
+    "id": "PH-06",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.02",
+    "difficulty": "Challenging",
+    "skill": "Site penetration",
+    "stem": "A stable patient with symptomatic pulmonary histoplasmosis has no CNS involvement and does not require intensive care. The organism is sequestered within granulomatous lung lesions, so prolonged oral therapy with good pulmonary tissue penetration is selected.",
+    "prompt": "Which drug best fits this pharmacokinetic and mechanistic profile?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Fluconazole, which binds ergosterol to create pores",
+        "rationale": "Fluconazole inhibits lanosterol demethylase rather than binding ergosterol, and it has less favorable pulmonary tissue distribution for this course-specific scenario."
+      },
+      {
+        "id": "B",
+        "text": "Itraconazole, which inhibits lanosterol 14-alpha-demethylase",
+        "rationale": "Itraconazole is an oral azole with greater tissue distribution than fluconazole and is commonly used for nonsevere pulmonary histoplasmosis; CYP-mediated interactions and hepatotoxicity require attention."
+      },
+      {
+        "id": "C",
+        "text": "Amphotericin B, which inhibits fungal beta-glucan synthase",
+        "rationale": "Amphotericin binds ergosterol rather than beta-glucan synthase and is generally reserved for severe disease because IV delivery and nephrotoxicity add substantial burden."
+      },
+      {
+        "id": "D",
+        "text": "Oseltamivir, which blocks viral neuraminidase",
+        "rationale": "Oseltamivir treats influenza and has no activity against Histoplasma."
+      },
+      {
+        "id": "E",
+        "text": "Rifampin, which blocks fungal RNA polymerase",
+        "rationale": "Rifampin targets bacterial RNA polymerase and is not an antifungal; it would also create major CYP-mediated interactions with azoles."
+      }
+    ],
+    "answer": "B",
+    "explanation": "For nonsevere pulmonary histoplasmosis, itraconazole provides an oral option with useful lung and tissue penetration. Like other azoles, it inhibits the fungal cytochrome P450 enzyme lanosterol 14-alpha-demethylase, reducing ergosterol synthesis. The same P450 biology explains clinically important hepatic drug interactions, and granulomatous sequestration helps explain the prolonged treatment course.",
+    "takeaway": "Itraconazole is an oral, tissue-penetrating azole for many nonsevere pulmonary endemic mycoses."
+  },
+  {
+    "id": "PH-07",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.02",
+    "difficulty": "Challenging",
+    "skill": "Morphology → therapy",
+    "stem": "A neutropenic patient develops pleuritic chest pain and hemoptysis. CT shows a pulmonary nodule with a surrounding ground-glass halo. Biopsy demonstrates septate hyphae branching at acute angles.",
+    "prompt": "Which therapy most directly targets the likely organism?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Voriconazole",
+        "rationale": "The morphology and angioinvasive pulmonary syndrome indicate Aspergillus; voriconazole is a preferred targeted azole and inhibits lanosterol demethylase."
+      },
+      {
+        "id": "B",
+        "text": "Fluconazole",
+        "rationale": "Fluconazole is useful for susceptible yeasts but lacks reliable activity against invasive aspergillosis."
+      },
+      {
+        "id": "C",
+        "text": "Oseltamivir",
+        "rationale": "Oseltamivir blocks influenza neuraminidase and does not treat hyphal fungal infection."
+      },
+      {
+        "id": "D",
+        "text": "Isoniazid",
+        "rationale": "Isoniazid inhibits mycobacterial mycolic-acid synthesis and is irrelevant to invasive Aspergillus."
+      },
+      {
+        "id": "E",
+        "text": "Metronidazole",
+        "rationale": "Metronidazole targets anaerobic organisms and selected protozoa, not angioinvasive molds."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Acute-angle, septate hyphae plus a halo sign in a neutropenic host strongly indicate invasive pulmonary aspergillosis. Voriconazole inhibits fungal lanosterol demethylase and is preferred for targeted treatment. This must be distinguished from Mucorales, which are broad, pauciseptate, and right-angle branching and require a different antifungal strategy.",
+    "takeaway": "Invasive Aspergillus in a neutropenic host is treated with voriconazole; morphology separates it from Mucorales."
+  },
+  {
+    "id": "PH-08",
+    "day": "Thursday, August 27",
+    "session": "Respiratory Antiviral, Antifungal, and TB Pharmacology",
+    "objective": "LO 51.03",
+    "difficulty": "Challenging",
+    "skill": "Viral life-cycle matching",
+    "stem": "Patient 1 is an older nursing-home resident evaluated within 24 hours of influenza symptoms during a facility outbreak. Patient 2 is hospitalized with severe COVID-19 and is selected for an intravenous nucleotide analogue that interferes with viral genome synthesis.",
+    "prompt": "Which drug-target pairing is correct for both patients?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Patient 1: oseltamivir—neuraminidase; Patient 2: remdesivir—RNA-dependent RNA polymerase",
+        "rationale": "Oseltamivir limits influenza virion release by inhibiting neuraminidase, while remdesivir is incorporated during coronavirus RNA synthesis and inhibits the viral RNA-dependent RNA polymerase."
+      },
+      {
+        "id": "B",
+        "text": "Patient 1: oseltamivir—hemagglutinin; Patient 2: remdesivir—viral protease",
+        "rationale": "Oseltamivir does not inhibit hemagglutinin, and remdesivir targets the polymerase rather than the viral protease."
+      },
+      {
+        "id": "C",
+        "text": "Patient 1: remdesivir—neuraminidase; Patient 2: oseltamivir—reverse transcriptase",
+        "rationale": "The drugs and targets are reversed, and neither influenza nor coronavirus requires retroviral reverse transcriptase."
+      },
+      {
+        "id": "D",
+        "text": "Patient 1: rifampin—RNA polymerase; Patient 2: itraconazole—lanosterol demethylase",
+        "rationale": "These are antibacterial and antifungal mechanisms, not appropriate antiviral therapy for the two syndromes."
+      },
+      {
+        "id": "E",
+        "text": "Patient 1: amphotericin B—ergosterol; Patient 2: isoniazid—mycolic acid",
+        "rationale": "Ergosterol and mycolic acid are fungal and mycobacterial targets, respectively."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Antiviral drugs must be matched to a virus-specific replication step. Influenza neuraminidase cleaves terminal sialic acid to release newly formed virions, so oseltamivir is most useful when started early or used strategically during high-risk outbreaks. Remdesivir is a nucleotide analogue that inhibits coronavirus RNA-dependent RNA polymerase; coronavirus proofreading can limit its efficiency, but the target remains viral RNA synthesis.",
+    "takeaway": "Oseltamivir blocks influenza neuraminidase-mediated release; remdesivir inhibits coronavirus RNA-dependent RNA polymerase."
+  },
+  {
+    "id": "LRTI-01",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.01 / 52.03",
+    "difficulty": "Challenging",
+    "skill": "Syndrome → stabilization",
+    "stem": "A 4-year-old boy develops a barking cough after a viral upper respiratory illness. He rapidly becomes febrile, toxic appearing, and stridulous. Nebulized epinephrine and dexamethasone provide little benefit. Bronchoscopy shows intensely inflamed tracheal mucosa with thick purulent exudate that intermittently obstructs the airway.",
+    "prompt": "Which management strategy is most appropriate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Discharge with humidified air and no antimicrobial therapy",
+        "rationale": "Supportive outpatient care is appropriate for uncomplicated viral croup, but toxicity, purulent tracheal exudate, and progressive obstruction indicate bacterial tracheitis."
+      },
+      {
+        "id": "B",
+        "text": "Secure the airway and begin broad-spectrum antibiotics including MRSA coverage",
+        "rationale": "Bacterial tracheitis can abruptly occlude the airway; stabilization comes first, followed by broad therapy because Staphylococcus aureus, including MRSA, is a major cause."
+      },
+      {
+        "id": "C",
+        "text": "Give systemic glucocorticoids alone",
+        "rationale": "Steroids do not eradicate bacterial infection or remove obstructing purulent material and are not the definitive treatment for bacterial tracheitis."
+      },
+      {
+        "id": "D",
+        "text": "Begin oseltamivir alone",
+        "rationale": "Antiviral therapy may be relevant to an early influenza trigger, but it does not treat the superimposed bacterial tracheal infection."
+      },
+      {
+        "id": "E",
+        "text": "Observe for spontaneous resolution because bronchi, not lung parenchyma, are involved",
+        "rationale": "The anatomic localization does not make the process benign; bacterial tracheitis is a potentially lethal upper-airway emergency."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The child initially resembles croup, but high fever, toxic appearance, poor response to standard croup therapy, and purulent obstructing tracheal material indicate bacterial tracheitis. Airway protection is the immediate priority because sloughed exudate and edema can cause sudden occlusion. Broad antibiotics should include coverage for S aureus, with MRSA considered from the outset.",
+    "takeaway": "Toxic croup-like illness with purulent tracheal exudate is bacterial tracheitis: secure the airway and cover S aureus/MRSA."
+  },
+  {
+    "id": "LRTI-02",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.01 / 52.03",
+    "difficulty": "Moderate",
+    "skill": "Localization → treatment",
+    "stem": "A 31-year-old teacher has a persistent cough 12 days after a rhinovirus-like illness. He is afebrile, oxygen saturation is 98%, lung examination is clear, and chest radiography shows no parenchymal infiltrate. He asks for antibiotics because the sputum occasionally appears yellow.",
+    "prompt": "Which response is most appropriate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Prescribe azithromycin because sputum color proves bacterial pneumonia",
+        "rationale": "Purulent-appearing sputum can result from inflammatory cells and does not establish bacterial pneumonia in the absence of systemic illness or an infiltrate."
+      },
+      {
+        "id": "B",
+        "text": "Prescribe amoxicillin-clavulanate to prevent progression to lobar pneumonia",
+        "rationale": "Routine antibiotics do not prevent viral acute bronchitis from becoming pneumonia and expose the patient to unnecessary adverse effects."
+      },
+      {
+        "id": "C",
+        "text": "Provide supportive care and explain that cough from acute bronchitis may persist for weeks",
+        "rationale": "Acute bronchitis is usually viral, localizes to the bronchi rather than lung parenchyma, and is managed supportively when red flags and infiltrates are absent."
+      },
+      {
+        "id": "D",
+        "text": "Begin vancomycin because Staphylococcus aureus commonly causes tracheitis",
+        "rationale": "The patient has neither bacterial tracheitis nor severe staphylococcal pneumonia; vancomycin is inappropriate."
+      },
+      {
+        "id": "E",
+        "text": "Perform thoracentesis to exclude parapneumonic effusion",
+        "rationale": "There is no radiographic effusion or pneumonia to justify pleural sampling."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Normal oxygenation, lack of systemic toxicity, and absence of a parenchymal infiltrate distinguish acute bronchitis from pneumonia. Most acute bronchitis is viral, and cough can persist for several weeks after the initial upper respiratory symptoms resolve. Management is reassurance and symptomatic care unless new focal, hypoxemic, or systemic findings emerge.",
+    "takeaway": "Acute bronchitis is usually viral; a lingering cough without infiltrate or red flags does not require antibiotics."
+  },
+  {
+    "id": "LRTI-03",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.02 / 52.03",
+    "difficulty": "Moderate",
+    "skill": "Empiric coverage design",
+    "stem": "A 67-year-old man with COPD and diabetes has fever, productive cough, and a new right lower-lobe infiltrate. Blood pressure and oxygenation are stable, and he can be treated as an outpatient. No prior cultures show resistant organisms.",
+    "prompt": "Which empiric regimen best follows the course framework by covering common typical pathogens and atypical organisms?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Amoxicillin-clavulanate plus azithromycin",
+        "rationale": "Amoxicillin-clavulanate supplies broad typical gram-positive and gram-negative coverage, while azithromycin adds atypical coverage appropriate to community-acquired pneumonia."
+      },
+      {
+        "id": "B",
+        "text": "Vancomycin alone",
+        "rationale": "Vancomycin covers resistant gram-positive organisms but misses common gram-negative and atypical causes and is unnecessary without MRSA risk."
+      },
+      {
+        "id": "C",
+        "text": "Metronidazole alone",
+        "rationale": "Metronidazole targets anaerobes and would not cover the usual community-acquired typical and atypical pathogens."
+      },
+      {
+        "id": "D",
+        "text": "Daptomycin plus cefazolin",
+        "rationale": "Daptomycin is inactivated by pulmonary surfactant, and this combination lacks atypical coverage."
+      },
+      {
+        "id": "E",
+        "text": "Oseltamivir alone",
+        "rationale": "An antiviral alone does not treat a radiographically established bacterial or mixed community-acquired pneumonia syndrome."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The patient has community-acquired pneumonia with comorbidities but no instability requiring admission. The lecture's outpatient framework pairs amoxicillin-clavulanate for common typical gram-positive and gram-negative organisms with azithromycin for atypical pathogens. Resistant hospital organisms should not be added reflexively without the exposure or microbiologic risk that justifies them.",
+    "takeaway": "Community-acquired pneumonia regimens are built by combining typical coverage with atypical coverage."
+  },
+  {
+    "id": "LRTI-04",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.02 / 52.03",
+    "difficulty": "Challenging",
+    "skill": "Extra-pulmonary clues",
+    "stem": "A 63-year-old smoker returns from a hotel conference with high fever, nonproductive cough, watery diarrhea, confusion, and patchy bilateral airspace opacities. Sodium is 124 mEq/L and aminotransferases are mildly elevated.",
+    "prompt": "Which organism-treatment pairing is most appropriate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Streptococcus pneumoniae — penicillin V alone",
+        "rationale": "Pneumococcus can cause lobar pneumonia but does not characteristically combine contaminated-water exposure, diarrhea, confusion, and hyponatremia."
+      },
+      {
+        "id": "B",
+        "text": "Legionella pneumophila — azithromycin or a respiratory fluoroquinolone",
+        "rationale": "The water-system exposure and prominent gastrointestinal, neurologic, sodium, and liver abnormalities strongly indicate Legionella, an atypical pathogen requiring intracellularly active therapy."
+      },
+      {
+        "id": "C",
+        "text": "Klebsiella pneumoniae — metronidazole alone",
+        "rationale": "Klebsiella is associated with alcoholism, diabetes, necrosis, and currant-jelly sputum; metronidazole would not adequately treat it."
+      },
+      {
+        "id": "D",
+        "text": "Mycoplasma pneumoniae — amoxicillin alone",
+        "rationale": "Mycoplasma often affects younger patients and lacks a cell wall, making amoxicillin ineffective."
+      },
+      {
+        "id": "E",
+        "text": "Moraxella catarrhalis — oseltamivir",
+        "rationale": "Moraxella can exacerbate COPD but is a bacterium and is not treated with an influenza neuraminidase inhibitor."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A hotel-associated water exposure plus severe pneumonia, diarrhea, confusion, hyponatremia, and mild transaminitis is a classic Legionella pattern. Because the organism is intracellular and categorized as atypical, treatment requires an agent such as azithromycin or a respiratory fluoroquinolone rather than beta-lactam monotherapy.",
+    "takeaway": "Legionella couples contaminated-water exposure with GI symptoms, hyponatremia, and atypical-antibiotic requirements."
+  },
+  {
+    "id": "LRTI-05",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.02 / 52.03",
+    "difficulty": "Challenging",
+    "skill": "Structure → antibiotic failure",
+    "stem": "A 20-year-old college student has 10 days of fatigue, dry cough, and low-grade fever but continues attending class. Chest radiography shows diffuse interstitial opacities. He develops targetoid skin lesions and mild Coombs-positive hemolysis.",
+    "prompt": "Why would amoxicillin be ineffective against the most likely pathogen?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The organism produces an extended-spectrum beta-lactamase",
+        "rationale": "Beta-lactamase can cause resistance in organisms such as H influenzae, but it does not explain the young patient, interstitial pattern, erythema multiforme, and cold-agglutinin hemolysis."
+      },
+      {
+        "id": "B",
+        "text": "The organism lacks a peptidoglycan cell wall",
+        "rationale": "Mycoplasma pneumoniae lacks a cell wall, so beta-lactams have no target; macrolides, doxycycline, or respiratory fluoroquinolones are used instead."
+      },
+      {
+        "id": "C",
+        "text": "The organism replicates only within erythrocytes",
+        "rationale": "Mycoplasma-associated hemolysis is immune mediated, not due to bacterial replication inside red cells."
+      },
+      {
+        "id": "D",
+        "text": "The organism is a fungus with an ergosterol membrane",
+        "rationale": "No fungal exposure or morphology is present; the extrapulmonary findings are classic for Mycoplasma."
+      },
+      {
+        "id": "E",
+        "text": "The organism forms acid-fast mycolic acids",
+        "rationale": "Acid-fast mycobacteria produce a different chronic clinical and radiographic syndrome."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Subacute 'walking' pneumonia in a young adult, interstitial opacities, erythema multiforme, and IgM cold-agglutinin hemolysis identify Mycoplasma pneumoniae. Because Mycoplasma has no peptidoglycan cell wall, beta-lactam antibiotics cannot bind a useful target. Therapy must inhibit another bacterial process, such as protein synthesis.",
+    "takeaway": "Mycoplasma lacks a cell wall; beta-lactams fail despite a bacterial pneumonia syndrome."
+  },
+  {
+    "id": "LRTI-06",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.02 / 52.03",
+    "difficulty": "Challenging",
+    "skill": "Temporal pattern → escalation",
+    "stem": "An 81-year-old nursing-home resident improves after influenza but then develops abrupt recurrent fever, hemoptysis, shock, and rapidly progressive cavitary pulmonary opacities. Sputum Gram stain shows gram-positive cocci in clusters.",
+    "prompt": "Which antimicrobial is the best addition to the pneumonia regimen?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Daptomycin",
+        "rationale": "Although active against MRSA in blood and soft tissue, daptomycin is inactivated by pulmonary surfactant and should not be used to treat alveolar pneumonia."
+      },
+      {
+        "id": "B",
+        "text": "Vancomycin",
+        "rationale": "Post-influenza necrotizing pneumonia with gram-positive cocci in clusters strongly suggests S aureus, including MRSA; vancomycin or linezolid provides appropriate coverage."
+      },
+      {
+        "id": "C",
+        "text": "Metronidazole",
+        "rationale": "Metronidazole targets anaerobes and does not provide adequate staphylococcal coverage."
+      },
+      {
+        "id": "D",
+        "text": "Oseltamivir as the only antimicrobial",
+        "rationale": "Treating influenza alone is inadequate once a severe superimposed bacterial pneumonia is established."
+      },
+      {
+        "id": "E",
+        "text": "Isoniazid",
+        "rationale": "Isoniazid targets mycobacterial mycolic-acid synthesis and does not treat acute staphylococcal pneumonia."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The biphasic course—initial influenza improvement followed by abrupt severe cavitary pneumonia—is highly suggestive of secondary S aureus infection. MRSA-active therapy should be added promptly; vancomycin and linezolid are standard pulmonary options. Daptomycin is a tempting distractor because it treats MRSA elsewhere, but surfactant inactivates it in the lung.",
+    "takeaway": "Post-influenza necrotizing pneumonia requires MRSA coverage with vancomycin or linezolid, not daptomycin."
+  },
+  {
+    "id": "LRTI-07",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.02 / 52.03",
+    "difficulty": "Challenging",
+    "skill": "Setting → resistant coverage",
+    "stem": "A 70-year-old man develops fever, purulent secretions, hypoxemia, and a new infiltrate on hospital day 5 after abdominal surgery. He has structural bronchiectasis and received IV antibiotics during a recent admission.",
+    "prompt": "Which organisms must the initial empiric regimen specifically cover beyond routine community-acquired pathogens?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Mycoplasma and Chlamydia only",
+        "rationale": "Atypical coverage alone is inadequate for hospital-acquired pneumonia with structural lung disease and recent antibiotic exposure."
+      },
+      {
+        "id": "B",
+        "text": "Pseudomonas aeruginosa and methicillin-resistant Staphylococcus aureus",
+        "rationale": "Hospital onset, prior healthcare exposure, antibiotics, and bronchiectasis create substantial risk for Pseudomonas and MRSA, which require explicit empiric coverage."
+      },
+      {
+        "id": "C",
+        "text": "Histoplasma and Blastomyces",
+        "rationale": "Endemic fungi produce different subacute or chronic syndromes and do not explain a new hospital-day-5 pneumonia."
+      },
+      {
+        "id": "D",
+        "text": "Anaerobes only",
+        "rationale": "Anaerobes are important after aspiration or in abscess/empyema, but they do not replace the required antipseudomonal and MRSA coverage here."
+      },
+      {
+        "id": "E",
+        "text": "Influenza A and respiratory syncytial virus only",
+        "rationale": "A viral panel may be useful, but the setting demands immediate resistant bacterial coverage."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is hospital-acquired pneumonia, not uncomplicated community-acquired disease. Hospital exposure, recent IV antibiotics, and bronchiectasis raise the probability of resistant gram-negative bacilli—especially Pseudomonas—and MRSA. Empiric therapy must be built around those risks and narrowed when cultures and rapid tests permit.",
+    "takeaway": "Hospital-acquired pneumonia and bronchiectasis shift empiric coverage toward Pseudomonas and MRSA."
+  },
+  {
+    "id": "LRTI-08",
+    "day": "Thursday, August 27",
+    "session": "Lower Respiratory Infections and Treatment",
+    "objective": "LO 52.01 / 52.03",
+    "difficulty": "Challenging",
+    "skill": "Time course → aspiration subtype",
+    "stem": "A 55-year-old man has a generalized seizure and vomits. Within 30 minutes, he develops severe hypoxemia and bilateral dependent opacities. He is afebrile, and the leukocyte count is initially normal. There was no preceding cough or foul sputum.",
+    "prompt": "Which initial management is most appropriate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Immediate broad anaerobic antibiotics for a lung abscess",
+        "rationale": "Lung abscess from anaerobic infection develops over a more subacute interval and is associated with foul sputum, necrosis, and cavitation rather than minutes-to-hours deterioration."
+      },
+      {
+        "id": "B",
+        "text": "Supportive respiratory care for chemical pneumonitis",
+        "rationale": "Abrupt respiratory failure immediately after large-volume acidic gastric aspiration reflects sterile chemical injury; antibiotics do not treat the initial inflammatory pneumonitis."
+      },
+      {
+        "id": "C",
+        "text": "Vancomycin for post-influenza MRSA pneumonia",
+        "rationale": "There is no influenza prodrome, gram-positive culture result, or biphasic bacterial course."
+      },
+      {
+        "id": "D",
+        "text": "Oseltamivir for an influenza-associated ARDS syndrome",
+        "rationale": "The witnessed aspiration and immediate timing identify the trigger; neuraminidase inhibition is irrelevant."
+      },
+      {
+        "id": "E",
+        "text": "Pleural drainage for empyema",
+        "rationale": "No pleural fluid collection or delayed infected exudate is described."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Aspiration can produce three different problems: immediate chemical pneumonitis, delayed bacterial pneumonia, or mechanical airway obstruction. The witnessed large-volume gastric aspiration followed by respiratory failure within minutes points to chemical pneumonitis. Initial care is supportive; antibiotics are reserved for convincing bacterial infection that evolves later rather than given reflexively for sterile acid injury.",
+    "takeaway": "Minutes-to-hours deterioration after gastric aspiration is chemical pneumonitis; delayed foul, necrotic disease suggests anaerobic infection."
+  },
+  {
+    "id": "PL-01",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.01",
+    "difficulty": "Moderate",
+    "skill": "Anatomy → symptom",
+    "stem": "During thoracentesis, a patient experiences sharp pain precisely as the needle traverses the outer pleural layer despite adequate skin anesthesia. The operator administers additional local anesthetic before advancing.",
+    "prompt": "Which anatomic property best explains the pain?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The visceral pleura contains dense somatic sensory innervation",
+        "rationale": "The visceral pleura is relatively insensitive to pain and does not have the same somatic innervation as the parietal layer."
+      },
+      {
+        "id": "B",
+        "text": "The parietal pleura receives somatic sensory innervation",
+        "rationale": "The parietal pleura is innervated by intercostal and phrenic pathways, making it pain sensitive during inflammation and procedures."
+      },
+      {
+        "id": "C",
+        "text": "The visceral pleura contains the principal lymphatic stomata",
+        "rationale": "Pleural-fluid removal occurs predominantly through parietal pleural lymphatics, not visceral lymphatics."
+      },
+      {
+        "id": "D",
+        "text": "The parietal pleura is supplied only by the pulmonary circulation",
+        "rationale": "The parietal pleura is primarily supplied by systemic vessels; this does not directly explain procedural pain."
+      },
+      {
+        "id": "E",
+        "text": "The pleural space normally contains no fluid",
+        "rationale": "A thin lubricating layer of pleural fluid is normally present."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The parietal and visceral pleura are continuous but functionally different. The parietal pleura has somatic sensory innervation and is therefore responsible for pleuritic and procedural pain. It also contains the lymphatic pathways that perform most pleural-fluid resorption, whereas the visceral pleura is relatively pain insensitive.",
+    "takeaway": "Parietal pleura hurts and drains; visceral pleura is relatively insensitive and lacks the major lymphatic stomata."
+  },
+  {
+    "id": "PL-02",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.02",
+    "difficulty": "Moderate",
+    "skill": "Mechanism → fluid type",
+    "stem": "A patient with decompensated left-sided heart failure has bilateral pleural effusions. Thoracentesis shows low protein and low LDH relative to serum, with no inflammatory cells or malignant cells.",
+    "prompt": "Which mechanism most directly produced this fluid?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Increased systemic hydrostatic pressure driving low-protein fluid across pleural capillaries",
+        "rationale": "Heart failure raises hydrostatic pressure and produces a transudate without primary pleural inflammation."
+      },
+      {
+        "id": "B",
+        "text": "Direct bacterial invasion causing increased pleural permeability",
+        "rationale": "This would produce an inflammatory exudate, often neutrophilic and biochemically protein rich."
+      },
+      {
+        "id": "C",
+        "text": "Malignant obstruction of parietal lymphatics",
+        "rationale": "Lymphatic obstruction commonly produces an exudative malignant effusion and may recur rapidly."
+      },
+      {
+        "id": "D",
+        "text": "Thoracic-duct disruption releasing chyle",
+        "rationale": "Chylothorax is milky and triglyceride rich rather than a simple bilateral low-protein transudate."
+      },
+      {
+        "id": "E",
+        "text": "Pulmonary infarction causing pleural inflammation",
+        "rationale": "Pulmonary embolic infarction can produce a reddish exudative effusion."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Transudates arise from systemic imbalances in hydrostatic or oncotic forces rather than local pleural disease. In heart failure, increased venous and capillary hydrostatic pressure moves relatively protein-poor fluid into the pleural space. Exudates instead signal local inflammation, infection, malignancy, tissue injury, or impaired lymphatic resorption.",
+    "takeaway": "Heart failure produces a transudate through elevated hydrostatic pressure; local pleural injury produces an exudate."
+  },
+  {
+    "id": "PL-03",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.04",
+    "difficulty": "Challenging",
+    "skill": "Light's criteria calculation",
+    "stem": "Pleural fluid contains 3.8 g/dL protein and 110 U/L LDH. Simultaneous serum values are protein 7.0 g/dL and LDH 220 U/L. The laboratory upper limit of normal for serum LDH is 240 U/L.",
+    "prompt": "How should this effusion be classified by Light's criteria?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Transudative because the pleural-to-serum LDH ratio is below 0.6",
+        "rationale": "Although the LDH ratio is 0.50, an effusion is exudative if any one Light criterion is met."
+      },
+      {
+        "id": "B",
+        "text": "Transudative because pleural LDH is below two-thirds of the serum upper limit",
+        "rationale": "That criterion is not met, but failure of one or two criteria does not negate another positive criterion."
+      },
+      {
+        "id": "C",
+        "text": "Exudative because the pleural-to-serum protein ratio exceeds 0.5",
+        "rationale": "The protein ratio is 3.8/7.0 = 0.54, which alone satisfies Light's criteria for an exudate."
+      },
+      {
+        "id": "D",
+        "text": "Exudative only if all three Light criteria are positive",
+        "rationale": "Light's criteria require any one of the three thresholds, not all three."
+      },
+      {
+        "id": "E",
+        "text": "Indeterminate without a pleural triglyceride level",
+        "rationale": "Triglycerides are used when chylothorax is suspected, not for the initial transudate-exudate classification."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Light's criteria classify an effusion as exudative if any one threshold is met: pleural/serum protein ratio greater than 0.5, pleural/serum LDH ratio greater than 0.6, or pleural LDH greater than two-thirds the serum LDH upper limit. Here, only the protein criterion is positive, but one positive criterion is sufficient.",
+    "takeaway": "Light's criteria use an OR rule: any single positive threshold makes the effusion exudative."
+  },
+  {
+    "id": "PL-04",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.02 / 54.04",
+    "difficulty": "Challenging",
+    "skill": "Pleural chemistry → intervention",
+    "stem": "A patient with bacterial pneumonia has a moderate loculated pleural effusion. Pleural fluid is cloudy, neutrophil predominant, pH 7.08, glucose 38 mg/dL, and LDH is markedly elevated; Gram stain is negative.",
+    "prompt": "Which management is most appropriate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Antibiotics alone because the Gram stain is negative",
+        "rationale": "A negative Gram stain does not exclude pleural-space infection. Low pH, low glucose, and loculation identify a complicated parapneumonic effusion that requires drainage."
+      },
+      {
+        "id": "B",
+        "text": "Chest-tube drainage plus antibiotics with anaerobic coverage",
+        "rationale": "Complicated parapneumonic effusions require source control in addition to antibiotics; anaerobes become more important than in uncomplicated community-acquired pneumonia."
+      },
+      {
+        "id": "C",
+        "text": "Observation because the fluid is not frank pus",
+        "rationale": "Empyema is the purulent end of the spectrum, but drainage is already indicated before frank pus when biochemical and structural complication is present."
+      },
+      {
+        "id": "D",
+        "text": "Diuresis alone",
+        "rationale": "The exudative, neutrophilic, low-pH fluid is not a hydrostatic heart-failure transudate."
+      },
+      {
+        "id": "E",
+        "text": "Immediate pleurodesis as the sole treatment",
+        "rationale": "Pleurodesis is used in selected recurrent effusions, especially malignant disease, and does not replace infection control and drainage."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Parapneumonic effusions progress along a spectrum from simple free-flowing sterile exudate to bacterial invasion, fibrin deposition, loculation, and empyema. Pleural pH below about 7.2, glucose below 60 mg/dL, marked LDH elevation, or loculation indicates a complicated effusion. Antibiotics alone are insufficient; the pleural space must be drained, and therapy should account for streptococci, staphylococci, and anaerobes.",
+    "takeaway": "A low-pH, low-glucose, loculated parapneumonic effusion needs drainage plus antibiotics—even with a negative Gram stain."
+  },
+  {
+    "id": "PL-05",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.02 / 54.04",
+    "difficulty": "Challenging",
+    "skill": "Failed drainage → adjunct",
+    "stem": "A patient with empyema has a correctly positioned small-bore chest tube and appropriate antibiotics, but ultrasound shows multiple residual noncommunicating locules filled with thick material. Drainage remains poor.",
+    "prompt": "Which intrapleural treatment can improve drainage by targeting the major components of the loculated material?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Alteplase plus DNase",
+        "rationale": "A fibrinolytic breaks down fibrinous septations while DNase reduces viscosity from extracellular DNA released by degenerating cells."
+      },
+      {
+        "id": "B",
+        "text": "Pyridoxine plus isoniazid",
+        "rationale": "This combination addresses tuberculosis therapy and neuropathy, not fibrinous pleural loculations."
+      },
+      {
+        "id": "C",
+        "text": "Talc plus bleomycin",
+        "rationale": "Pleurodesis agents intentionally create pleural adhesion and are inappropriate during uncontrolled pleural infection."
+      },
+      {
+        "id": "D",
+        "text": "Heparin plus warfarin",
+        "rationale": "Systemic anticoagulation does not debride infected loculations and increases bleeding risk."
+      },
+      {
+        "id": "E",
+        "text": "Surfactant plus daptomycin",
+        "rationale": "Daptomycin is inactivated by pulmonary surfactant, and neither agent dissolves pleural fibrin or DNA."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Loculated empyema contains fibrinous septations and viscous cellular debris rich in extracellular DNA. Intrapleural tPA breaks down fibrin, while DNase decreases viscosity, allowing the chest tube to evacuate previously isolated pockets more effectively. This is an adjunct to—not a replacement for—antibiotics and drainage.",
+    "takeaway": "For poorly draining loculated empyema, intrapleural tPA plus DNase targets fibrin septa and DNA-rich viscosity."
+  },
+  {
+    "id": "PL-06",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.03",
+    "difficulty": "Moderate",
+    "skill": "Physiology → emergency action",
+    "stem": "Minutes after subclavian central-line placement, a patient develops sudden dyspnea, hypotension, tachycardia, distended neck veins, absent right-sided breath sounds, hyperresonance, and leftward tracheal deviation.",
+    "prompt": "What is the next step?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Obtain an upright chest radiograph before intervening",
+        "rationale": "The findings establish tension physiology clinically; waiting for imaging risks obstructive shock and cardiac arrest."
+      },
+      {
+        "id": "B",
+        "text": "Perform immediate pleural decompression, followed by definitive chest-tube placement",
+        "rationale": "Tension pneumothorax is defined by hemodynamic compromise from trapped pleural air and requires immediate decompression before confirmatory imaging."
+      },
+      {
+        "id": "C",
+        "text": "Begin diuresis for a transudative effusion",
+        "rationale": "The examination indicates pressurized pleural air, not fluid overload."
+      },
+      {
+        "id": "D",
+        "text": "Perform diagnostic thoracentesis and send Light's criteria",
+        "rationale": "Thoracentesis evaluates pleural fluid, whereas this emergency requires evacuation of air."
+      },
+      {
+        "id": "E",
+        "text": "Administer antibiotics and observe for empyema",
+        "rationale": "There is no infectious time course or fluid collection."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tension pneumothorax is a physiologic diagnosis: rising pleural pressure collapses the lung, shifts the mediastinum, impairs venous return, and causes obstructive shock. The combination of unilateral absent breath sounds, hyperresonance, tracheal deviation, and hypotension requires immediate decompression. A chest tube then provides definitive continuous evacuation.",
+    "takeaway": "Tension pneumothorax is diagnosed clinically and decompressed immediately; do not delay for imaging."
+  },
+  {
+    "id": "PL-07",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.03",
+    "difficulty": "Moderate",
+    "skill": "Host reserve → pneumothorax type",
+    "stem": "A 69-year-old man with severe emphysema develops sudden pleuritic pain and dyspnea. Imaging shows a spontaneous pneumothorax occupying only 15% of the hemithorax, yet he is markedly hypoxemic and distressed.",
+    "prompt": "Which interpretation is most accurate?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "This is a primary spontaneous pneumothorax and size alone predicts a benign course",
+        "rationale": "Primary spontaneous pneumothorax occurs without known underlying lung disease, often in tall, thin younger patients."
+      },
+      {
+        "id": "B",
+        "text": "This is a secondary spontaneous pneumothorax, and limited pulmonary reserve explains the severe physiology",
+        "rationale": "Underlying emphysema makes this secondary; even a relatively small pneumothorax can cause major symptoms when baseline reserve is poor."
+      },
+      {
+        "id": "C",
+        "text": "This is a tension pneumothorax solely because the pneumothorax is spontaneous",
+        "rationale": "Tension is defined by hemodynamic compromise, not by whether the event is spontaneous."
+      },
+      {
+        "id": "D",
+        "text": "This is a traumatic pneumothorax because emphysematous bullae rupture",
+        "rationale": "Bullous rupture can be spontaneous; no external or iatrogenic injury is described."
+      },
+      {
+        "id": "E",
+        "text": "This is a chylothorax because the patient has dyspnea",
+        "rationale": "Chylothorax is a triglyceride-rich pleural effusion, not pleural air."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spontaneous pneumothorax is classified by the host lung. Primary events occur without recognized lung disease; secondary events occur in disorders such as emphysema. The same radiographic size can be far more dangerous in secondary pneumothorax because little functional reserve remains.",
+    "takeaway": "A small secondary pneumothorax can be physiologically severe because diseased lungs have limited reserve."
+  },
+  {
+    "id": "PL-08",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.05",
+    "difficulty": "Challenging",
+    "skill": "Imaging pattern → significance",
+    "stem": "A retired insulation worker has bilateral calcified plaques concentrated along the diaphragmatic pleura and a peripheral rounded opacity with a curving 'comet-tail' of bronchovascular structures. He has no new respiratory symptoms.",
+    "prompt": "Which statement best characterizes these findings?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They represent deposited asbestos fibers that require surgical removal",
+        "rationale": "Pleural plaques are a fibrotic and calcific response to prior exposure, not removable sheets of asbestos itself."
+      },
+      {
+        "id": "B",
+        "text": "They are benign markers of asbestos exposure, with the rounded opacity representing rounded atelectasis",
+        "rationale": "Bilateral diaphragmatic plaques and rounded atelectasis are characteristic benign pleural manifestations of asbestos exposure."
+      },
+      {
+        "id": "C",
+        "text": "They establish malignant mesothelioma",
+        "rationale": "Mesothelioma produces progressive pleural tumor, thickening, effusion, and invasion; plaques alone are benign and do not diagnose cancer."
+      },
+      {
+        "id": "D",
+        "text": "They are typical apical plaques from prior tuberculosis",
+        "rationale": "Asbestos plaques favor bilateral diaphragmatic pleura rather than an isolated apical postinfectious pattern."
+      },
+      {
+        "id": "E",
+        "text": "They indicate an acute parapneumonic effusion",
+        "rationale": "There is no acute infectious syndrome, free pleural fluid, or neutrophilic inflammation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Pleural plaques are collagenous, often calcified scars that mark significant asbestos exposure. Their bilateral distribution and preference for diaphragmatic pleura help distinguish them from focal calcification after infection, trauma, or hemorrhage. Rounded atelectasis can accompany pleural fibrosis and produces a comet-tail appearance; neither finding alone is malignant.",
+    "takeaway": "Bilateral diaphragmatic pleural plaques and rounded atelectasis are benign markers of asbestos exposure, not mesothelioma."
+  },
+  {
+    "id": "PL-09",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.02 / 54.06",
+    "difficulty": "Challenging",
+    "skill": "Appearance → mechanism",
+    "stem": "A patient with mediastinal lymphoma develops progressive dyspnea. Thoracentesis yields opaque milky fluid with a markedly elevated triglyceride concentration and abundant lymphocytes.",
+    "prompt": "Which mechanism best explains the effusion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thoracic-duct obstruction causing impaired lymphatic resorption and leakage of chyle",
+        "rationale": "Lymphoma can obstruct the thoracic duct, producing triglyceride-rich chylous fluid in the pleural space."
+      },
+      {
+        "id": "B",
+        "text": "Increased hydrostatic pressure from isolated left-heart failure",
+        "rationale": "Heart failure usually produces clear, low-protein transudative fluid rather than milky triglyceride-rich chyle."
+      },
+      {
+        "id": "C",
+        "text": "Acute bacterial invasion of the pleura",
+        "rationale": "Empyema can be turbid or purulent but is neutrophil rich and is not defined by high triglycerides."
+      },
+      {
+        "id": "D",
+        "text": "Rupture of an emphysematous bulla",
+        "rationale": "Bullous rupture produces pneumothorax—air rather than milky fluid."
+      },
+      {
+        "id": "E",
+        "text": "Pulmonary infarction after embolism",
+        "rationale": "Pulmonary embolism may create a bloody inflammatory exudate, not chyle."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Milky pleural fluid with high triglycerides indicates chylothorax. A mediastinal lymphoma can infiltrate or compress the thoracic duct, creating back pressure and leakage of lymphatic chyle into the pleural space. This is fundamentally a lymphatic drainage and resorption problem.",
+    "takeaway": "Chylothorax is a triglyceride-rich effusion caused by thoracic-duct disruption or obstruction, commonly from lymphoma."
+  },
+  {
+    "id": "PL-10",
+    "day": "Friday, August 28",
+    "session": "Pleural Disease",
+    "objective": "LO 54.06",
+    "difficulty": "Challenging",
+    "skill": "Negative cytology → tissue diagnosis",
+    "stem": "A 66-year-old woman has progressive dyspnea, weight loss, and a rapidly recurrent unilateral pleural effusion. The fluid is lymphocyte-predominant and exudative. Two thoracenteses have negative cytology, but CT shows nodular pleural thickening and no evidence of heart failure or pneumonia.",
+    "prompt": "Which plan best addresses the most likely diagnostic and symptomatic problem?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Continue serial diagnostic thoracenteses indefinitely",
+        "rationale": "Pleural-fluid cytology has limited sensitivity, and repeated negative samples should not substitute for tissue diagnosis when pleural malignancy remains strongly suspected."
+      },
+      {
+        "id": "B",
+        "text": "Perform pleuroscopy or thoracoscopy with pleural biopsy; if malignancy is confirmed and fluid keeps recurring, consider a tunneled pleural catheter",
+        "rationale": "Direct visualization and biopsy improve diagnostic yield for pleural malignancy, while an indwelling catheter permits outpatient palliation of recurrent symptomatic fluid."
+      },
+      {
+        "id": "C",
+        "text": "Treat with diuresis and classify the effusion as transudative",
+        "rationale": "The fluid already meets exudative criteria and the unilateral nodular pleural process is not explained by systemic hydrostatic overload."
+      },
+      {
+        "id": "D",
+        "text": "Give intrapleural tPA and DNase without further evaluation",
+        "rationale": "tPA/DNase is used for infected loculated parapneumonic collections, not an undiagnosed lymphocytic malignant-appearing effusion."
+      },
+      {
+        "id": "E",
+        "text": "Perform emergency needle decompression",
+        "rationale": "Needle decompression treats tension pneumothorax, which causes pleural air and hemodynamic compromise rather than a recurrent fluid collection."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A recurrent lymphocytic exudate with pleural nodularity and constitutional symptoms remains highly suspicious for malignancy despite negative cytology. Because fluid cytology can miss pleural tumors, pleuroscopy or thoracoscopy allows direct inspection and tissue biopsy. Once malignant recurrence is established, an indwelling tunneled catheter can control dyspnea at home and reduce repeated hospital procedures; pleurodesis is another option in selected patients.",
+    "takeaway": "Persistent suspicion after negative pleural cytology requires pleural biopsy; recurrent malignant fluid often needs a durable drainage strategy."
+  },
+  {
+    "id": "LT-01",
+    "day": "Friday, August 28",
+    "session": "Lung Tumor Pathology",
+    "objective": "LO 55.01 / 55.02",
+    "difficulty": "Challenging",
+    "skill": "Host phenotype → driver",
+    "stem": "A 44-year-old Asian woman who has never smoked is found to have a 2.1-cm peripheral lung mass and small brain metastases. Biopsy shows gland formation and mucin production; tumor cells are positive for TTF-1 and Napsin A.",
+    "prompt": "Which molecular finding is most likely and has direct therapeutic significance?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Activating EGFR mutation",
+        "rationale": "Peripheral TTF-1/Napsin A-positive adenocarcinoma in a younger nonsmoking woman is enriched for activating EGFR mutations and may respond to an EGFR tyrosine-kinase inhibitor."
+      },
+      {
+        "id": "B",
+        "text": "PTH-related peptide amplification",
+        "rationale": "PTHrP-mediated hypercalcemia is classically associated with squamous cell carcinoma."
+      },
+      {
+        "id": "C",
+        "text": "Loss of both RB and TP53 as the defining event",
+        "rationale": "Combined RB and TP53 loss is strongly characteristic of small cell carcinoma."
+      },
+      {
+        "id": "D",
+        "text": "BCR-ABL translocation",
+        "rationale": "BCR-ABL defines chronic myeloid leukemia, not a primary lung adenocarcinoma."
+      },
+      {
+        "id": "E",
+        "text": "Inactivation of viral neuraminidase",
+        "rationale": "Neuraminidase is an influenza protein and has no role in lung-cancer driver testing."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Gland formation, mucin production, peripheral location, and TTF-1/Napsin A support primary lung adenocarcinoma. In nonsmoking women, especially of Asian ancestry, activating EGFR mutations are particularly important because they predict response to targeted EGFR inhibition. Small peripheral adenocarcinomas can metastasize early, so size alone does not imply localized disease.",
+    "takeaway": "A peripheral TTF-1/Napsin A-positive adenocarcinoma in a nonsmoker should prompt testing for actionable drivers such as EGFR."
+  },
+  {
+    "id": "LT-02",
+    "day": "Friday, August 28",
+    "session": "Lung Tumor Pathology",
+    "objective": "LO 55.02",
+    "difficulty": "Moderate",
+    "skill": "Paraneoplastic localization",
+    "stem": "A 68-year-old man with a 70-pack-year smoking history has a large central cavitary lung mass. Calcium is 13.1 mg/dL, parathyroid hormone is suppressed, and biopsy shows keratin pearls and intercellular bridges.",
+    "prompt": "Which tumor-derived factor most likely explains the laboratory abnormality?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Antidiuretic hormone",
+        "rationale": "Ectopic ADH produces hyponatremia and is most strongly linked to small cell carcinoma."
+      },
+      {
+        "id": "B",
+        "text": "Adrenocorticotropic hormone",
+        "rationale": "Ectopic ACTH causes Cushing syndrome and is another small-cell association."
+      },
+      {
+        "id": "C",
+        "text": "Parathyroid hormone-related peptide",
+        "rationale": "Squamous cell carcinoma can secrete PTHrP, causing humoral hypercalcemia with suppressed endogenous PTH."
+      },
+      {
+        "id": "D",
+        "text": "Erythropoietin",
+        "rationale": "Erythropoietin would cause erythrocytosis rather than hypercalcemia."
+      },
+      {
+        "id": "E",
+        "text": "Insulin-like growth factor II",
+        "rationale": "IGF-II can cause hypoglycemia in selected tumors, not this classic squamous-cell syndrome."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The central cavitary smoking-related tumor with keratinization and intercellular bridges is squamous cell carcinoma. Its classic paraneoplastic syndrome is humoral hypercalcemia from PTH-related peptide. The high calcium suppresses native parathyroid hormone, distinguishing ectopic PTHrP activity from primary hyperparathyroidism.",
+    "takeaway": "Central cavitary squamous carcinoma can secrete PTHrP, producing hypercalcemia with low endogenous PTH."
+  },
+  {
+    "id": "LT-03",
+    "day": "Friday, August 28",
+    "session": "Lung Tumor Pathology",
+    "objective": "LO 55.01 / 55.02",
+    "difficulty": "Challenging",
+    "skill": "Pathology + paraneoplasia",
+    "stem": "A heavy smoker has a central hilar mass, weight loss, and confusion. Sodium is 116 mEq/L with inappropriately concentrated urine. Biopsy is markedly crushed and shows sheets of small blue cells with scant cytoplasm, nuclear molding, high mitotic activity, necrosis, and neuroendocrine-marker expression.",
+    "prompt": "Which additional molecular pattern is most characteristic of this tumor?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Mutually exclusive EGFR and KRAS activation",
+        "rationale": "Those alterations are discussed primarily in lung adenocarcinoma, not the classic small-cell molecular pattern."
+      },
+      {
+        "id": "B",
+        "text": "Loss-of-function alterations in TP53 and RB",
+        "rationale": "Small cell carcinoma is strongly linked to smoking, neuroendocrine differentiation, SIADH, and inactivation of TP53 and RB."
+      },
+      {
+        "id": "C",
+        "text": "Isolated CDKN2A activation",
+        "rationale": "Tumor suppressor activation would not drive this cancer; squamous cancers more often show loss involving CDKN2A."
+      },
+      {
+        "id": "D",
+        "text": "BAP1 loss as the defining thoracic lesion",
+        "rationale": "BAP1 can be associated with mesothelioma but does not fit a central small-blue-cell neuroendocrine carcinoma."
+      },
+      {
+        "id": "E",
+        "text": "No recurrent tumor-suppressor abnormalities",
+        "rationale": "Small cell carcinoma has highly recurrent tumor-suppressor loss and is not molecularly featureless."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The morphologic clues—crush artifact, nuclear molding, scant cytoplasm, brisk mitoses, and necrosis—identify small cell carcinoma. The severe hyponatremia reflects ectopic ADH and SIADH, another high-yield clue. Small cell carcinoma almost universally carries loss of TP53 and RB pathway function and behaves as an early-metastasizing, highly aggressive neuroendocrine cancer.",
+    "takeaway": "Small cell carcinoma combines smoking, central neuroendocrine morphology, SIADH/ACTH syndromes, and TP53/RB loss."
+  },
+  {
+    "id": "LT-04",
+    "day": "Friday, August 28",
+    "session": "Lung Tumor Pathology",
+    "objective": "LO 55.02",
+    "difficulty": "Challenging",
+    "skill": "Neuroendocrine spectrum",
+    "stem": "A 32-year-old nonsmoker has recurrent right middle-lobe pneumonia and intermittent wheezing. Bronchoscopy reveals a well-circumscribed vascular endobronchial mass. Histology shows organoid nests of uniform cells with salt-and-pepper chromatin, few mitoses, and no necrosis.",
+    "prompt": "Which diagnosis best fits this lesion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Typical carcinoid tumor",
+        "rationale": "A low-grade endobronchial neuroendocrine tumor in a younger nonsmoker, with bland salt-and-pepper cells and minimal mitotic activity, is a typical carcinoid."
+      },
+      {
+        "id": "B",
+        "text": "Small cell carcinoma",
+        "rationale": "Small cell carcinoma is strongly smoking associated and shows marked atypia, crush artifact, extensive mitoses, necrosis, and aggressive spread."
+      },
+      {
+        "id": "C",
+        "text": "Squamous cell carcinoma",
+        "rationale": "Squamous carcinoma may be central but shows keratinization or squamous markers and usually occurs in older smokers."
+      },
+      {
+        "id": "D",
+        "text": "Peripheral adenocarcinoma",
+        "rationale": "Adenocarcinoma forms glands or mucin and is usually peripheral rather than a vascular endobronchial neuroendocrine mass."
+      },
+      {
+        "id": "E",
+        "text": "Pulmonary hamartoma",
+        "rationale": "Hamartoma is a benign parenchymal coin lesion composed of tissues such as cartilage and fat, not an endobronchial neuroendocrine proliferation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Pulmonary neuroendocrine neoplasms form a spectrum from typical carcinoid to atypical carcinoid, large-cell neuroendocrine carcinoma, and small cell carcinoma. The patient's young age, nonsmoking status, obstructive endobronchial presentation, uniform salt-and-pepper cells, low mitotic rate, and absence of necrosis place this lesion at the low-grade typical-carcinoid end.",
+    "takeaway": "Typical carcinoid is a low-grade endobronchial neuroendocrine tumor with bland salt-and-pepper cells and few mitoses."
+  },
+  {
+    "id": "LT-05",
+    "day": "Friday, August 28",
+    "session": "Lung Tumor Pathology",
+    "objective": "LO 55.02",
+    "difficulty": "Moderate",
+    "skill": "Imaging + composition",
+    "stem": "A 58-year-old man undergoes CT after minor trauma. A sharply circumscribed 2.5-cm round peripheral lung lesion contains macroscopic fat and coarse calcified cartilage. He has no constitutional symptoms and no prior malignancy.",
+    "prompt": "Which diagnosis is most likely?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pulmonary hamartoma",
+        "rationale": "A small, well-circumscribed coin lesion containing a mixture of fat, cartilage, fibrous tissue, or smooth muscle is characteristic of a benign pulmonary hamartoma."
+      },
+      {
+        "id": "B",
+        "text": "Small cell carcinoma",
+        "rationale": "Small cell carcinoma is usually a central aggressive mass and does not contain mature fat and cartilage."
+      },
+      {
+        "id": "C",
+        "text": "Squamous cell carcinoma",
+        "rationale": "Squamous carcinoma may cavitate and keratinize but is not a mixed mature-tissue coin lesion."
+      },
+      {
+        "id": "D",
+        "text": "Lymphangitic carcinomatosis",
+        "rationale": "Lymphangitic spread produces diffuse interstitial and lymphatic infiltration rather than one sharply circumscribed mixed-tissue nodule."
+      },
+      {
+        "id": "E",
+        "text": "Malignant mesothelioma",
+        "rationale": "Mesothelioma diffusely involves pleura and commonly produces pleural thickening and effusion rather than a fat-containing parenchymal coin lesion."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Pulmonary hamartoma is a common benign lung neoplasm that presents as a small, round 'coin lesion.' The key diagnostic clue is a disorganized mixture of mature mesenchymal tissues, especially cartilage and fat. Although historically named a hamartoma, these lesions are clonal true neoplasms and generally behave benignly.",
+    "takeaway": "A small coin lesion containing fat and cartilage is a pulmonary hamartoma."
+  },
+  {
+    "id": "LT-06",
+    "day": "Friday, August 28",
+    "session": "Lung Tumor Pathology",
+    "objective": "LO 55.01 / 55.02",
+    "difficulty": "Challenging",
+    "skill": "Exposure + compartment",
+    "stem": "A 72-year-old retired shipyard worker has progressive chest pain, dyspnea, weight loss, and recurrent unilateral exudative pleural effusion. CT shows nodular pleural thickening that encases the lung rather than a discrete intraparenchymal mass. He stopped smoking 25 years ago.",
+    "prompt": "Which diagnosis is most likely?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Malignant mesothelioma",
+        "rationale": "Decades-long latency after heavy asbestos exposure, recurrent pleural effusion, and a rind-like pleural tumor are characteristic of malignant mesothelioma; smoking does not independently increase its risk."
+      },
+      {
+        "id": "B",
+        "text": "Primary spontaneous pneumothorax",
+        "rationale": "This occurs without underlying lung disease and produces pleural air, not progressive pleural tumor and exudative fluid."
+      },
+      {
+        "id": "C",
+        "text": "Pulmonary hamartoma",
+        "rationale": "Hamartoma is a small benign parenchymal coin lesion containing mature tissues such as cartilage and fat."
+      },
+      {
+        "id": "D",
+        "text": "Typical carcinoid tumor",
+        "rationale": "Carcinoid is usually an endobronchial neuroendocrine mass causing obstruction, not diffuse pleural encasement."
+      },
+      {
+        "id": "E",
+        "text": "Acute parapneumonic effusion",
+        "rationale": "The chronic constitutional course, asbestos latency, and nodular pleural rind are not compatible with an acute bacterial complication."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Malignant mesothelioma arises from mesothelial surfaces and has a strong, relatively specific association with substantial asbestos exposure after a long latency. It commonly presents with chest pain, dyspnea, recurrent effusion, and diffuse nodular pleural thickening that encases the lung. Asbestos also increases ordinary lung-cancer risk, but smoking synergizes with asbestos for lung carcinoma—not for mesothelioma itself.",
+    "takeaway": "Asbestos exposure decades earlier plus a recurrent effusion and rind-like pleural mass indicates malignant mesothelioma."
+  }
+]

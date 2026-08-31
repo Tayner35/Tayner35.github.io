@@ -1,0 +1,19 @@
+{
+  "question_count": 82,
+  "existing_question_count": 50,
+  "new_question_count": 32,
+  "new_day_counts": {
+    "Thursday, August 27": 16,
+    "Friday, August 28": 16
+  },
+  "new_session_counts": {
+    "Respiratory Antiviral, Antifungal, and TB Pharmacology": 8,
+    "Lower Respiratory Infections and Treatment": 8,
+    "Pleural Disease": 10,
+    "Lung Tumor Pathology": 6
+  },
+  "payload_count": 11,
+  "source_sha256": "f7d22cc65787e7e87010346b3d82d29f89e6c72738e9390edc11c27f1da9d08e",
+  "compressed_bytes": 71716,
+  "encoded_characters": 95624
+}
